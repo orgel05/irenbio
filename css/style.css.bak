@@ -1,0 +1,87 @@
+/************************************************전체********************************************************/
+
+/*전체 base css*/
+@import url(http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb);
+* {font-family: 나눔고딕, nanumgothic !important;}
+body {background:#ffffff;margin:0px;font-size:10pt;padding:0px;color:#333333;line-height:20px;font-family:NanumGothicWeb;overflow-y: scroll;}
+th,td {font-size:10pt;color:#333333;line-height:20px;}
+ul {line-height:22px;}
+a:link {color:#333333;text-decoration:none;}
+a:visited {color:#555555;text-decoration:none;}
+a:active {color:#ff0000;text-decoration:none;}
+a:hover {color:#000000;text-decoration:none;}
+
+
+/**************************************************메인******************************************************/
+
+#header {position:relative;width:950px;height:85px;margin:auto;font-size:8pt;}
+	#topmenu {position:absolute;top:12px;right:0px;}
+	.topmenu_gap {margin:0px 6px 0px 6px;color:#bbbbbb;}
+	#logo {position:absolute;top:30px;left:0px;}
+	#menu {position:absolute;top:50px;right:0px;font-size:18px;margin:0px;padding:0px;list-style:none;}
+	#menu li {float:left;margin-left:70px;}
+	#menu a {color:#333333;font-weight:600;}
+	#menu a:hover {color:#30871b;}
+
+#submenuBox {position:relative;height:30px;background:#318317;}
+	#submenu {position:relative;height:30px;width:950px;margin:auto;}
+	#submenu01, #submenu02, #submenu03, #submenu04 {position:absolute;top:5px;margin:0px;padding:0px;list-style:none;display:none;}
+	#submenu li {float:left;margin-left:10px;}
+	#submenu a {color:#f4f4f4;}
+
+#mainimg {position:relative;height:400px;}
+
+#main_contents {position:relative;width:950px;height:160px;margin:auto;font-size:9pt;margin-top:50px;}
+#main_contents1 {position:relative;width:293px;float:left;}
+#main_contents2 {position:relative;width:293px;height:160px;float:left;margin-left:40px;}
+#main_contents3 {position:relative;width:120px;height:160px;float:left;margin-left:40px;}
+#main_contents4 {position:relative;width:120px;height:160px;float:left;margin-left:20px;}
+#main_contents_gap {position:relative;width:1px;height:160px;float:left;background:#eeeeee;margin:0px 10px 0px 10px;}
+
+
+.news_header {position:relative;height:35px;border-bottom:1px solid #eeeeee;}
+	.news_title {position:absolute;font-size:18px;font-weight:600;}
+	.news_more {position:absolute;font-size:11px;right:0px;top:5px;}
+.news_gap {position:relative;height:20px;}
+.news_contents {position:relative;height:25px;}
+	.news_subject {position:absolute;left:0px;}
+	.news_contents_date {position:absolute;right:0px;}
+
+.product_contents {position:absolute;width:293px;height:120px;border:1px solid #000000;}
+	.product_left {position:absolute;left:0px;top:50px;}
+	.product_center {position:absolute;left:14px;}
+	.product_right {position:absolute;left:280px;top:50px;}
+
+
+#footer {clear:both;position:relative;height:140px;margin-top:50px;background:#5e5e5e;}
+#copyright {position:relative;width:950px;margin:auto;}
+#copytext {position:absolute;top:45px;left:250px;color:#f2f2f2;}
+
+
+
+/**************************************************서브******************************************************/
+
+#subImg {position:relative;height:307px;}
+
+#contentsWrap {position:relative;width:950px;margin:auto;margin-bottom:100px;}
+#subTitle {position:relative;margin:auto;margin-top:100px;font-size:28px;font-weight:600;margin-bottom:55px;text-align:center;}
+
+
+#contentsWrap2Full {position:relative;background:#f4f4f4;margin-top:50px;}
+#contentsWrap2 {position:relative;width:950px;margin:auto;padding:50px 0px 50px 0px;}
+#subTitle2 {position:relative;margin:auto;font-size:28px;font-weight:600;margin-bottom:55px;text-align:center;}
+
+
+.product_item {position:relative;width:294px;height:400px;float:left;margin:30px 10px 0px 10px;}
+.product_subject {position:relative;height:55px;background:#f9f9f9;border-top:2px solid #cccccc;border-bottom:1px solid #dddddd;}
+.product_subject_text {position:relative;margin:auto;font-size:18px;top:17px;text-align:center;font-weight:600;}
+.product_img {position:relative;text-align:center;padding:10px 0px 10px 0px;border-bottom:1px solid #eeeeee;}
+.product_text {position:relative;text-align:center;padding-top:20px;font-size:14px;}
+
+
+.cer_item {position:relative;width:450px;height:600px;float:left;margin:30px 10px 0px 10px;}
+.cer_subject {position:relative;height:55px;background:#f9f9f9;border-top:2px solid #cccccc;border-bottom:1px solid #dddddd;}
+.cer_subject_text {position:relative;margin:auto;font-size:18px;top:17px;text-align:center;font-weight:600;}
+.cer_img {position:relative;text-align:center;padding:10px 0px 10px 0px;border-bottom:1px solid #eeeeee;}
+.cer_text {position:relative;text-align:center;padding-top:20px;font-size:14px;}
+.cer_img_style {border:1px solid #eeeeee;}

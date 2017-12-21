@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+<meta charset="UTF-8">
+<meta name="Keywords" content="이렌바이오">
+<meta name="Description" content="이렌바이오">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<script type="text/javascript" src="./js/menu.js"></script>
+<title>이렌바이오</title>
+</head>
+
+<body>
+
+
+<div id="header">
+	<div id="topmenu">
+		<a href="./">HOME</a>
+		<span class="topmenu_gap">|</span>
+		<a href="./support01.html">문의하기</a>
+		<span class="topmenu_gap">|</span>
+		<a href="./sitemap.html">SITEMAP</a>
+	</div>
+	<div id="logo">
+		<a href="./"><img src="./img/logo.gif" border="0" /></a>
+	</div>
+
+	<ul id="menu">
+		<li><a href="./company01.html" onMouseOver="menuOn('submenu01')">회사소개</a></li>
+		<li><a href="./biz01.html" onMouseOver="menuOn('submenu02')">사업소개</a></li>
+		<li><a href="./product01.html" onMouseOver="menuOn('submenu03')">생산품</a></li>
+		<li><a href="./support01.html" onMouseOver="menuOn('submenu04')">고객지원</a></li>
+	</ul>
+
+</div>
+
+
+<div id="submenuBox">
+	<div id="submenu">
+		<ul id="submenu01" style="left:478px;<?if ($submenu=='submenu01') {echo 'display:block;';}?>">
+			<li><a href="./company01.html">회사개요</a></li>
+			<li><a href="./company02.html">인사말</a></li>
+			<li><a href="./company03.html">연혁</a></li>
+			<li><a href="./company04.html">기업이념</a></li>
+			<li><a href="./company05.html">비젼&마케팅</a></li>
+			<li><a href="./company06.html">인증현황</a></li>
+			<li><a href="./company07.html">오시는길</a></li>
+		</ul>
+		<ul id="submenu02" style="left:615px;<?if ($submenu=='submenu02') {echo 'display:block;';}?>">
+			<li><a href="./biz01.html">사업배경</a></li>
+			<li><a href="./biz02.html">사업목적</a></li>
+			<li><a href="./biz03.html">사업비전</a></li>
+			<li><a href="./biz04.html">시장규모</a></li>
+		</ul>
+		<ul id="submenu03" style="left:754px;<?if ($submenu=='submenu03') {echo 'display:block;';}?>">
+			<li><a href="./product01.html">제품개요</a></li>
+			<li><a href="./product02.html">제품소개</a></li>
+			<li><a href="./product03.html">제품실험</a></li>
+		</ul>
+		<ul id="submenu04" style="right:0px;<?if ($submenu=='submenu04') {echo 'display:block;';}?>">
+			<li><a href="./support01.html">문의하기</a></li>
+			<li><a href="./support02.html">자료실</a></li>
+			<li><a href="./support03.html">이렌뉴스</a></li>
+		</ul>
+	</div>
+</div>
+
+<div style="height:307px;background:url(./img/submenu01.jpg) center;">
+</div>
+<div id="subTitle">제품소개</div>
+<div id= "contentsWrap">
+	<div class="product_item">
+		<div class="product_subject">
+			<div class="product_subject_text">이렌팡</div>
+		</div>
+		<div class="product_img"><img src="./img/product01.jpg"></div>
+		<div class="product_text">균에대한 면역력 증강<br />친환경 생물농약으로 100% 자연생 분해<br />PO50%:OW5%:W45%</div>
+	</div>
+	<div class="product_item">
+		<div class="product_subject">
+			<div class="product_subject_text">이렌충</div>
+		</div>
+		<div class="product_img"><img src="./img/product02.jpg"></div>
+		<div class="product_text">식물의 생리활성 촉진<br />해충에 대한 면역력 증강<br />PO50:OW25:W25</div>
+	</div>
+	<div class="product_item">
+		<div class="product_subject">
+			<div class="product_subject_text">이렌공</div>
+		</div>
+		<div class="product_img"><img src="./img/product03.jpg"></div>
+		<div class="product_text">색물의 생리 활성화 촉진<br />해충에 대한 면역력 증강<br />큰 나방까지 방제<br />PO50%:OW27%:W23%</div>
+	</div>
+	<div class="product_item">
+		<div class="product_subject">
+			<div class="product_subject_text">이렌근</div>
+		</div>
+		<div class="product_img"><img src="./img/product04.jpg"></div>
+		<div class="product_text">토양 속 균에 대한 면역력 증강으로<br />균 및 해충 방제<br />PO50%:OW26%:W24%</div>
+	</div>
+	<div class="product_item">
+		<div class="product_subject">
+			<div class="product_subject_text">이렌채</div>
+		</div>
+		<div class="product_img"><img src="./img/product05.jpg"></div>
+		<div class="product_text">20여가지 필수 아미노산<br />천연원료에서 추출한 43% 고농축 농물성 아미노산 영양제<br />유도단백질 99.2%:효소재 0.8%</div>
+	</div>
+	<div class="product_item">
+		<div class="product_subject">
+			<div class="product_subject_text">이렌층 300</div>
+		</div>
+		<div class="product_img"><img src="./img/product06.jpg"></div>
+		<div class="product_text">가정의 원예 및 난, 분재용<br />해충에 대한 면역력 증가 및 방제<br />인체 해가 없는 친환경 생물 농약으로 <br />100% 자연 분해</div>
+	</div>
+	<div class="product_item">
+		<div class="product_subject">
+			<div class="product_subject_text">이렌채 1000</div>
+		</div>
+		<div class="product_img"><img src="./img/product07.jpg"></div>
+		<div class="product_text">가정의 원예 및 난, 분재용 <br />해충에 대한 면역력 증가 및 방제<br />인체 해가 없는 친환경 생물 농약으로<br />100% 자연분해</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div id="copyright">
+		<img src="./img/logo2.gif" border="0" style="position:absolute;top:40px;" />
+		<div id="copytext">
+			창원시 의창구 팔용동 20-12 3F
+			<font color="#999999">&nbsp;|&nbsp;</font>
+			Tel : 055-298-8831
+			<font color="#999999">&nbsp;|&nbsp;</font>
+			Fax : 055-298-8832
+			<font color="#999999">&nbsp;|&nbsp;</font>
+			E-Mail : bamtop@hanmail.net
+			<br />
+			Copyright &copy; 2016 LIREN BIO. Inc.
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+</html>
